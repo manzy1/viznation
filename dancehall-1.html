@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="html" href="contact us.html">
+    <link ref="pages" href="index.html">
+    <link ref="pages" href="gospel-1.html">
+    <link ref="pages" href="hip-hop-1.html">
+    <link ref="pages" href="afro-1.html">
+    <title>Dancehall</title>
+</head>
+<body>
+    <!--navigation bar-->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="navbar">
+                    <div>
+                        <img src="logo/logo.jpeg" class="logo">
+                    </div>
+                    <!-- dropdown menu-->
+                    <div class="dropdown">
+                        
+                    <div class="dropdown-content">
+                        <a href="#">latest</a>
+                        <a href="hip-hop-1.html">Hip-Hop</a>
+                        <a href="dancehall-1.html">Dancehall</a>
+                        <a href="gospel-1.html">Gospel</a>
+                        <a href="afro-1.html">Afro</a>
+                        
+                    </div> 
+                
+                
+                    
+                </div>
+                <!--dropdown menu end-->
+                <!-- navigation bar items-->
+                <div class="topnav" id="myTopnav">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="contact us.html">Contact Us</a>
+                    <a href="#"><input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search songs"><button class="butt" style="border-radius: 3px; width: 30px;"><i class="fa fa-search"></i></button></a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                    
+                </div>
+                <!-- nav bar end-->
+            </div>
+        
+        
+        </div>
+        <!--marquee-->
+        <div style="position: sticky; top: 0;">
+            <marquee style="font: bolder; font-size: small; color: white; background-color: rgb(41, 6, 95); margin-top: 0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Viz Nation ..... Stream and Download Music From Malawi</marquee>
+        </div>
+        <!--music section-->
+        <!--music section-->
+            <div class="grid-container-1">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/aras.png">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: Malinga Mafia</p>
+                        <p>Title: Aras</p>
+                        <p>Produced by: DJ Sley</p>
+                    </div>
+                    <div class="butttons">
+                        <div style="display: inline-block; ">
+                            <a href="mp3/Arasi (Prod by DJ Sley).mp3" download="Malinga_Aras.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" onclick="clickCounter()" type="button" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                            <p id="message" style="margin-left: 13px;"></i></p>
+                        </div>
+                        <div style="display: inline-block;">
+                            <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" onclick="clickcounter()" type="button" class="btn-2" id="eli"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <p id="count"></p>
+
+                        </div>
+                        <!--Play section-->
+                        <audio id="yabaya">
+                            <source class="animals" src="mp3/Arasi (Prod by DJ Sley).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+            </div>
+            <div class="grid-container-2">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/zeze-chule-artwork.webp">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: Zeze kingston ft Tuno, Leumas, Afana Ceez & VJ Ice</p>
+                        <p>Title: Chule</p>
+                        <p>Produced by: Leumas</p>
+                    </div>
+                    <div class="butttons">
+                        <a href="mp3/Zeze-Kingston-x-Afana-Ceez-ft-Tuno-Mw_-Leumas-Vj-Ice-Chule-Audio.mp3" download="zeze kingston- Chule Ft Afana ceez,Tuno,Leumas & VJ Ice.mp3 "><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="butto"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <!--Play section-->
+                        <audio id="star">
+                            <source class="animals" src="mp3/Zeze-Kingston-x-Afana-Ceez-ft-Tuno-Mw_-Leumas-Vj-Ice-Chule-Audio.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="grid-container-3">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/pop young.jpg">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: Pop Young</p>
+                        <p>Title: Mesa</p>
+                        <p>Produced by: Nator 21</p>
+                    </div>
+                    <div class="butttons">
+                        <a href="mp3/Pop Young - Mesa (Official Music Video).mp3" download="Pop Young- Mesa.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="pop"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <!--Play section-->
+                        <audio id="mesa">
+                            <source class="animals" src="mp3/Pop Young - Mesa (Official Music Video).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="grid-container-4">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/eli yabaya.webp">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: Eli njuchi Ft Yo Maps</p>
+                        <p>Title: Yabaya</p>
+                        <p>Produced by: Tricky Beats, JMASS & Sispence</p>
+                    </div>
+                    <div class="butttons">
+                        <a href="mp3/Eli Njuchi_Yabaya [Feat Yo Maps] Official Music Video.mp3" download="Eli ft Yo Maps- Yabaya.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="eli"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <!--Play section-->
+                        <audio id="yabaya">
+                            <source class="animals" src="mp3/Eli Njuchi_Yabaya [Feat Yo Maps] Official Music Video.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="grid-container-4">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/eli yabaya.webp">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: Eli njuchi Ft Yo Maps</p>
+                        <p>Title: Yabaya</p>
+                        <p>Produced by: Tricky Beats, JMASS & Sispence</p>
+                    </div>
+                    <div class="butttons">
+                        <a href="mp3/Eli Njuchi_Yabaya [Feat Yo Maps] Official Music Video.mp3" download="Eli ft Yo Maps- Yabaya.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="eli"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <!--Play section-->
+                        <audio id="yabaya">
+                            <source class="animals" src="mp3/Eli Njuchi_Yabaya [Feat Yo Maps] Official Music Video.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                </div>
+                <!--designed by-->
+                <p style="color: rgb(13,110,253);font-weight: bolder;">designed by Manzy</p>
+                
+            </div>
+            <!--footer-->
+            <div class="row">
+        
+                <img style="width: 1370px;height: 1px;" src="logo/viz.jpg">
+               
+           </div>
+            
+        </div>
+       
+    
+    
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</body>
+</html>

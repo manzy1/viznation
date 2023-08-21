@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="html" href="contact us.html">
+    <link ref="pages" href="index.html">
+    <link ref="pages" href="gospel-1.html">
+    <link ref="pages" href="afro-1.html">
+    <link ref="pages" href="dancehall-1.html">
+    <title>Hip-Hop</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $("p").click(function(){
+            $(this).hide(3000);
+            $(this).show(3000);
+            
+            
+          });
+        });
+       
+    </script>
+   
+</head>
+<body>
+    <!--navigation bar-->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="navbar">
+                    <div id="div1">
+                        <img src="logo/logo.jpeg" class="logo" id="log">
+                    </div>
+                    <!-- dropdown menu-->
+                    <div class="dropdown">
+                        
+                    <div class="dropdown-content">
+                        <a href="#">latest</a>
+                        <a href="hip-hop-1.html">Hip-Hop</a>
+                        <a href="dancehall-1.html">Dancehall</a>
+                        <a href="gospel-1.html">Gospel</a>
+                        <a href="afro-1.html">Afro</a>
+                        
+                    </div> 
+                
+                
+                    
+                </div>
+                <!--dropdown menu end-->
+                <!-- navigation bar items-->
+                <div class="topnav" id="myTopnav">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="contact us.html">Contact Us</a>
+                    <a href="#"><input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search songs"><button class="butt" id="sbtn" style="border-radius: 3px; width: 30px;"><i class="fa fa-search"></i></button></a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                </div>
+                <!-- nav bar end-->
+            </div>
+        
+        
+        </div>
+        <!--marquee-->
+        <div style="position: sticky; top: 0;">
+            <marquee style="font: bolder; font-size: small; color: white; background-color: rgb(41, 6, 95); margin-top: 0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Viz Nation ..... Stream and Download Music From Malawi</marquee>
+        </div>
+        <!--music section-->
+        <div>
+            <p style="color: rgb(10, 6, 207);font-weight: bolder;width: 90px;justify-content: center;justify-items: center;align-items: center;">Hip-Hop</p>
+        </div>
+        <!--hip=hop music section-->
+            <div class="grid-container-1">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/hhe.png">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: Gwamba Ft Eli</p>
+                        <p>Title: Fumbi</p>
+                        <p>Produced by: tricky Beats</p>
+                    </div>
+                    <div class="butttons">
+                        <div style="display: inline-block; ">
+                            <a href="mp3/Gwamba_-_Fumbi__feat_Eli_Njuchi_(Official_Music_Video)(256k).mp3" download="Gwamba_-_Fumbi__feat_Eli_Njuchi_.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" onclick="clickCounter()" type="button" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        </div>
+                        <div style="display: inline-block;">
+                            <button  style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" type="button" class="btn-2" id="gwamba"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <p id="count"></p>
+
+                        </div>
+                        <p type="button" id="message" style="margin-left: 13px;margin-bottom: 2px;width: auto;"></i></p>
+
+                        <!--Play section-->
+                        <audio id="fumbi">
+                            <source class="animals" src="mp3/Gwamba_-_Fumbi__feat_Eli_Njuchi_(Official_Music_Video)(256k).mp3" type="audio/mp3">
+                        </audio>
+                        <p onclick="play()" id="play" style="margin-left: 13px;margin-bottom: 2px;"></i></p>
+
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="grid-container-1" style="margin-top: 15px;">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/nitrix-school.png">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: nitrix Ft Ace Ase & Pkayz</p>
+                        <p>Title: school Ndasiya</p>
+                        <p>Produced by: Ace tee & DJ OK</p>
+                    </div>
+                    <div class="butttons">
+                        <div style="display: inline-block; ">
+                            <a href="mp3/School Ndasiya feat Ace Aise & P Kayz Malawi.mp3" download="nitrix-school Ndasiya Ft Ace Ase & DJ OK.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" onclick="clickCounter()" type="button" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                            <p id="message" style="margin-left: 13px;"></i></p>
+                        </div>
+                        <div style="display: inline-block;">
+                            <button onclick="play()" style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" type="button" class="btn-2" id="eli"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <p id="count"></p>
+
+                        </div>
+                        <!--Play section-->
+                        <audio id="yabaya">
+                            <source class="animals" src="mp3/School Ndasiya feat Ace Aise & P Kayz Malawi.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+            </div>
+            <div class="grid-container-2">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/Madoo ART (2).jpg">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: Bee Jay Ft Guntola,Ace jizzy & Riffle</p>
+                        <p>Title: Madoo</p>
+                        <p>Produced by: Chux & Hybrid Phantom </p>
+                    </div>
+                    <div class="butttons">
+                        <a href="mp3/Bee Jay.mp3" download="Bee-Jay_Madoo Ft Guntola,Ace jizzy & Riffle Dynamic.mp3 "><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="butto"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <!--Play section-->
+                        <audio id="star">
+                            <source class="animals" src="mp3/Bee Jay.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="grid-container-3">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/gheto.png">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: SevenOmore Ft Fredokiss</p>
+                        <p>Title: Ine ndi Ghetto</p>
+                        <p>Produced by: SevenOmore</p>
+                    </div>
+                    <div class="butttons">
+                        <a href="mp3/SevenOmore - Ine Ndi Ghetto ft Fredokiss .mp3" download="SevenOmore_Ine ndi Ghetto Ft Fredokiss.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="more"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <!--Play section-->
+                        <audio id="seven">
+                            <source class="animals" src="mp3/SevenOmore - Ine Ndi Ghetto ft Fredokiss .mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="grid-container-4">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/toriah.jpg">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: Toriah</p>
+                        <p>Title: Sangapange</p>
+                        <p>Produced by: Cracks</p>
+                    </div>
+                    <div class="butttons">
+                        <a href="mp3/Toriah_-_Sangapange_(_Official_Music_Video_)(128k).mp3" download="Toriah_Sangapange.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="pop"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <!--Play section-->
+                        <audio id="mesa">
+                            <source class="animals" src="mp3/Toriah_-_Sangapange_(_Official_Music_Video_)(128k).mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="grid-container-4">
+                <div class="grid-item">
+                    <div>
+                        <img class="artwork-eli" src="artworks/gang.jpg">
+                    </div>
+                    <div class="song-info">
+                        <p>Artist: The Wave MW Ft Hayze</p>
+                        <p>Title: GVNG</p>
+                        <p>Produced by: Ghostly Sounds</p>
+                    </div>
+                    <div class="butttons">
+                        <a href="mp3/The Wave MW_Gang Ft Hayze Engolah.mp3" download="The Wave MW_Gang Ft Hayze Engolah.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                        <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="gang"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                        <!--Play section-->
+                        <audio id="wave">
+                            <source class="animals" src="mp3/The Wave MW_Gang Ft Hayze Engolah.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                    
+                </div>
+                <div class="grid-container-4">
+                    <div class="grid-item">
+                        <div>
+                            <img class="artwork-eli" src="artworks/gang.jpg">
+                        </div>
+                        <div class="song-info">
+                            <p>Artist: The Wave MW Ft Hayze</p>
+                            <p>Title: GVNG</p>
+                            <p>Produced by: Ghostly Sounds</p>
+                        </div>
+                        <div class="butttons">
+                            <a href="mp3/The Wave MW_Gang Ft Hayze Engolah.mp3" download="The Wave MW_Gang Ft Hayze Engolah.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                            <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="pop"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                            <!--Play section-->
+                            <audio id="mesa">
+                                <source class="animals" src="mp3/The Wave MW_Gang Ft Hayze Engolah.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                        
+                    </div>
+                <div class="grid-container-4">
+                    <div class="grid-item">
+                        <div>
+                            <img class="artwork-eli" src="artworks/gang.jpg">
+                        </div>
+                        <div class="song-info">
+                            <p>Artist: The Wave MW Ft Hayze</p>
+                            <p>Title: GVNG</p>
+                            <p>Produced by: Ghostly Sounds</p>
+                        </div>
+                        <div class="butttons">
+                            <a href="mp3/The Wave MW_Gang Ft Hayze Engolah.mp3" download="The Wave MW_Gang Ft Hayze Engolah.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                            <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="gang"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                            <!--Play section-->
+                            <audio id="wave">
+                                <source class="animals" src="mp3/The Wave MW_Gang Ft Hayze Engolah.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                            
+                </div>
+                <div class="grid-container-4">
+                    <div class="grid-item">
+                        <div>
+                            <img class="artwork-eli" src="artworks/gang.jpg">
+                        </div>
+                        <div class="song-info">
+                            <p>Artist: The Wave MW Ft Hayze</p>
+                            <p>Title: GVNG</p>
+                            <p>Produced by: Ghostly Sounds</p>
+                        </div>
+                        <div class="butttons">
+                            <a href="mp3/The Wave MW_Gang Ft Hayze Engolah.mp3" download="The Wave MW_Gang Ft Hayze Engolah.mp3"><button style="font-size: 10px; background-color: blue;color: white;font-weight: bold;" class="btn" id="download"><i class="fa fa-download"></i>Download</button></a>
+                            <button style="background-color: blue;color: white;width: 50px;border-radius: 8px;height: 33px;" class="btn-2" id="mw"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+                            <!--Play section-->
+                            <audio id="wave">
+                                <source src="mp3/The Wave MW_Gang Ft Hayze Engolah.mp3" type="audio/mp3">
+                            </audio>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div >
+                    <button class="next" ><a href="hip-hop-2.html">Next</a></button>
+                    <button class="next">Prev</button>
+                </div>
+               
+                <!--designed by-->
+                <p style="color: rgb(13,110,253);font-weight: bolder;">Designed by Manzy || L-viz Creations</p>
+                
+            </div>
+            <!--footer-->
+            <div class="row">
+        
+                <img style="width: 1370px;height: 1px;" src="logo/viz.jpg">
+               
+           </div>
+            
+        </div>
+       
+    
+    
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="plays.js"></script>
+</body>
+</html>
